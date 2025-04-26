@@ -1,19 +1,25 @@
 vote = {}
 def check_vote(name):
     if vote.get(name):
-        print("kict out the")
+        print(f"kict out the {name}")
     else:
         vote[name] = True
         print("let them to vote")
-# print(check_vote('rajesh'))
-# print(check_vote('rajesh'))
-# print(check_vote('mike'))
-# print(check_vote("mike"))
+print(check_vote("naren"))
+print(check_vote("naren"))
+print(check_vote("paranuh"))
 
-cache = {}
+# cache = {}
 
-def get_url(url):
-    if cache.get(url):
-        return cache[url]
-    else:
-        cache[url] = url
+# def get_data_server(data):
+#     return data
+
+# def get_url(url):
+#     if cache.get(url):
+#         return cache[url]
+#     else:
+#         data = get_data_server(u)
+#         cache[url] = data 
+#         return data
+# u = "rajesh@gamil.com"
+# print(get_data_server(u))
